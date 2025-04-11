@@ -1,0 +1,24 @@
+{
+    "name": "ibibicloud/thinkphp8",
+    "type": "project",
+    "keywords": ["think", "thinkphp", "thinkphp8"],
+    "description": "基于think=v8.1.2",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=8.0.0",
+        "ibibicloud/thinkphp8-framework": "*",
+		"ibibicloud/thinkphp8-template": "*"
+    },
+    "require-dev": {
+        "ibibicloud/thinkphp8-dumper": "*",
+        "ibibicloud/thinkphp8-trace": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    }
+}
