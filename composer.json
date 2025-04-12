@@ -7,7 +7,7 @@
     "require": {
         "php": ">=8.0.0",
         "ibibicloud/thinkphp8-framework": "*",
-		"ibibicloud/thinkphp8-template": "*"
+        "ibibicloud/thinkphp8-template": "*"
     },
     "require-dev": {
         "ibibicloud/thinkphp8-dumper": "*",
